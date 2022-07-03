@@ -3,6 +3,7 @@ import sys
 
 
 def main():
+    print("testing!")
     with open(sys.argv[1]) as f:
         contents = f.readlines()
         parse_lines(contents)
