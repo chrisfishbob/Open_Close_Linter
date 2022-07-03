@@ -9,7 +9,7 @@ def main():
  
 
 def parse_lines(contents):
-    current_line_num = 0
+    current_line_num = 1
 
     for line in contents:
         check_open_close(contents, line, current_line_num)
@@ -47,7 +47,6 @@ def check_quotes(contents, line, current_line_num):
         print("Potential issue on line", str(current_line_num) + ":")
         print(contents[current_line_num])
         print("########################################\n\n")
-
 
 
 def is_open_token(token):
