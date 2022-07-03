@@ -47,10 +47,7 @@ def check_quotes(contents, line, current_line_num):
         print("Potential issue on line", str(current_line_num) + ":")
         print(contents[current_line_num])
         print("########################################\n\n")
-            
 
-
-            
 
 
 def is_open_token(token):
