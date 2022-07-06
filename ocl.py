@@ -29,7 +29,7 @@ def check_open_close(contents, line, current_line_num):
     if open_count != close_count:
         print("\n########################################")
         print("Potential issue on line", str(current_line_num) + ":")
-        print(contents[current_line_num])
+        print(contents[current_line_num - 1])
         print("########################################\n\n")
 
 
